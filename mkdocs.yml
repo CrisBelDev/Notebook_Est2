@@ -1,0 +1,47 @@
+site_name: Estadistica 2
+
+
+nav:
+  - Home: index.md
+  - capitulo9.ipynb
+  - capitulo10.ipynb
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep orange
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.tabbed
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      execute: false
+      include_requirejs: true
+
+
