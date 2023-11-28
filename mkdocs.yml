@@ -3,6 +3,7 @@ site_name: Estadistica 2
 
 nav:
   - Home: index.md
+  - capitulo1.ipynb
   - capitulo8.ipynb
   - capitulo10.ipynb
 
