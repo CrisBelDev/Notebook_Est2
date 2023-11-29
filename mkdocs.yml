@@ -3,9 +3,9 @@ site_name: Estadistica 2
 
 nav:
   - Home: index.md
-  - capitulo1.ipynb
-  - capitulo8.ipynb
-  - capitulo10.ipynb
+  - "capitulo 1": capitulo1.ipynb
+  - "capitulo 8": capitulo8.ipynb
+  - "capitulo 10": capitulo10.ipynb
 
 theme:
   name: material
@@ -44,5 +44,6 @@ plugins:
   - mkdocs-jupyter:
       execute: false
       include_requirejs: true
+      ignore_h1_titles: True
 
 copyright: Copyright &copy; 2023 Cristian Abel
