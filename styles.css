@@ -1,0 +1,164 @@
+.chapter-box {
+    background-color: #009929;
+    color: #FFFFFF;
+    padding: 20px 0; /* Ajusta este valor para centrar verticalmente como desees */
+    width: 100%; /* Ancho al 100% para ocupar la parte superior de la pantalla */
+    box-sizing: border-box; /* Asegura que el padding no añada más ancho */
+    text-align: center; /* Centra el texto horizontalmente */
+  }
+  .chapter-box h1 {
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 6em; /* Tamaño CAPÍTULO 1 */
+  }
+
+    .content {
+    padding: 20px;
+    column-count: 2; 
+    column-gap: 40px; 
+  }
+  .content h2 {
+    color: #009929; 
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: left; 
+    border-bottom: 1px solid #009929; /* Línea debajo del texto */
+    padding-bottom: 5px; /* Espacio entre texto y línea */
+    display: inline-block; /* Permite que la línea ocupe el ancho del contenedor */
+    width: 100%; /* Asegura que el subrayado se extienda a lo largo de la página */
+  }
+  .content ul {
+    list-style-type: none; /* No queremos viñetas */
+    padding: 0;
+    margin-top: 0; /* Evitar espacios adicionales antes de la lista */
+  }
+  .content ul li {
+    margin-bottom: 10px; /* Espaciado entre líneas */
+    font-size: 1em;
+  }
+  .content ul li strong {
+    font-weight: bold;
+    display: block; /* Asegura que cada título de sección comience en una nueva línea */
+    break-inside: avoid-column; /* Evita que los títulos de sección se dividan entre columnas */
+    -webkit-column-break-inside: avoid; /* Para navegadores basados en WebKit como Safari */
+    page-break-inside: avoid; /* Para la paginación al imprimir */
+  }
+  /* estilos de tablas*/
+      .customTable {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      background-color: #D4F8B7; /* Fondo general de la tabla */
+    }
+    .customTable th, .customTable td {
+      background-color: #D4F8B7; /* Fondo de las celdas */
+      color: black;
+      font-weight: bold;
+      border-right: 2px solid #009929; /* Líneas divisorias verticales naranjas */
+      padding: 8px;
+      text-align: left;
+    }
+    .customTable th:last-child, .customTable td:last-child {
+      border-right: none;
+    }
+    .customTable thead tr:first-child th {
+      border-top: 5px solid #009929;
+      border-right: 2px solid #D4F8B7;
+      border-block-end: 2px solid #D4F8B7;
+    }
+    .customTable tr:last-child td {
+      border-bottom: 5px solid #009929;
+    }
+    /* otros */
+    .encuesta {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  .encuesta h2 {
+    text-align: center;
+    color: #333333;
+  }
+  .campo {
+    margin: 15px 0;
+  }
+  .campo label {
+    margin: 0 10px 0 0;
+    font-weight: bold;
+  }
+  .campo input[type="text"],
+  .campo textarea {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+  }
+  .pregunta {
+    margin: 15px 0;
+  }
+  .pregunta span {
+    font-weight: bold;
+  }
+  .opciones label {
+    margin-right: 5px;
+  }
+  .opciones input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  .comentario {
+    margin: 15px 0;
+  }
+  .boton-envio {
+    width: 100%;
+    padding: 10px;
+    background-color: #555555;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .tabulado {
+  margin-left: 20px; /* Esto añade espacio antes del elemento, como un tabulador. */
+  }
+    .tab {
+    margin-left: 20px; /* Esto añade espacio antes del elemento, como un tabulador. */
+  }
+  .diagram-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .circle {
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+  }
+  .rectangle {
+    border: 2px solid #000;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  .arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .arrow::after {
+    content: '→';
+    font-size: 24px;
+    margin: 0 10px;
+  }
