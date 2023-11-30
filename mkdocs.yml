@@ -15,15 +15,15 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: teal
-      accent: teal
+      primary: green
+      accent: green
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      primary: teal
-      accent: teal
+      primary: green
+      accent: green
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -38,7 +38,7 @@ markdown_extensions:
   - pymdownx.tabbed
   - toc:
       permalink: true
-
+      
 plugins:
   - search
   - mkdocs-jupyter:
